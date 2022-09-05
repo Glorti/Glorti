@@ -16,5 +16,8 @@ elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
 
 elseif game.PlaceId == 6516141723 then -- Doors
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawaredoors"))()
+
+elseif game.PlaceId == 4282985734 then -- Combat Warriors
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawarecombatwarriors"))()
     
 end
