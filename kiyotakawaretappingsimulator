@@ -23,9 +23,9 @@ end
   
 --Tabs
 local FarmTab = Window:MakeTab({
-    Name = "paid1",
+    Name = "Auto Farm",
     Icon = "rbxassetid://4483345998",
-    PremiumOnly = true
+    PremiumOnly = false
 })
 
 --Toggles
@@ -50,7 +50,7 @@ FarmTab:AddToggle({
 ----GFX----
 
 local GFXTab = Window:MakeTab({
-	Name = "paid2",
+	Name = "GFX",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = true
 })
