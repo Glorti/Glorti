@@ -15,5 +15,6 @@ elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawarerebchampx"))()
 
 elseif game.PlaceId == 6516141723 then -- Doors
-    loadstring(game:HttpGet("https://pastebin.com/raw/WJrTDh3X")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawaredoors")
+    
 end
