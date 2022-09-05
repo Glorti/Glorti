@@ -3,21 +3,21 @@ repeat
 until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:IsLoaded()
 
 if game.PlaceId == 9498006165 then -- Tapping Simulator!
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawaretappingsimulator"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWtapsimulator"))()
 
 elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawareminingclickingsim"))()
+    loadstring(game:HttpGet("hhttps://raw.githubusercontent.com/Glorti/Glorti/main/KWminingclickingsim"))()
 
 elseif game.PlaceId == 7177496972 then -- Anime Warriors
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawareanimewarriors"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWanimewarriors"))()
 
 elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawarerebchampx"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWRebirthChampionsX"))()
 
 elseif game.PlaceId == 6516141723 then -- Doors
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawaredoors"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWdoors"))()
 
 elseif game.PlaceId == 4282985734 then -- Combat Warriors
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawarecombatwarriors"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWcombatwarriors"))()
     
 end
