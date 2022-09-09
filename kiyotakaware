@@ -14,7 +14,7 @@ _G.Key = "KWkeygooffyreal"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakaware"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/key"))()
 end
 
 function CorrectKeyNotification()
