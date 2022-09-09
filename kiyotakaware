@@ -1,5 +1,5 @@
 local Allowed = loadstring(game:HttpGet("https://pastebin.com/raw/bh1J99nX", true))()
-if Allowed[game.Players.LocalPlayer.UserId] then
+if Allowed[game.Players.LocalPlayer.Name] then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/key"))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/kiyotakawaretap1"))()
