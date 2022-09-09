@@ -20,4 +20,7 @@ elseif game.PlaceId == 6516141723 then -- Doors
 elseif game.PlaceId == 4282985734 then -- Combat Warriors
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWcombatwarriors"))()
     
+elseif game.PlaceId == 218377574 then -- Admin Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    
 end
