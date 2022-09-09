@@ -86,8 +86,8 @@ local Section = playerTab:AddSection({
 
 playerTab:AddSlider({
 	Name = "Gravity Changer",
-	Min = 0,
-	Max = 200,
+	Min = -500,
+	Max = 500,
 	Default = 196,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
