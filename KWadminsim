@@ -105,7 +105,7 @@ playerTab:AddButton({
 })
 
 local tepTab = Window:MakeTab({
-	Name = "Hatch",
+	Name = "Teleports",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
