@@ -2,7 +2,7 @@ repeat
     wait()
 until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:IsLoaded()
 
-elseif game.PlaceId == 218377574 then -- Admin Simulator
+if game.PlaceId == 218377574 then -- Admin Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
  
 elseif game.PlaceId == 9739506878 then -- Admin Simulator River World
