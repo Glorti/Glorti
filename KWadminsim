@@ -6,7 +6,7 @@ _G.autoLift = true;
 function autoLift()
     while _G.autoLift == true do
         game:GetService("ReplicatedStorage").Remotes.Lift:FireServer()
-        wait()
+        wait(.0000001)
     end
 end
 
