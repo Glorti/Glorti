@@ -4,8 +4,6 @@ until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:I
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/antiafk"))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/adminsimworlds"))()
-
 if game.PlaceId == 9498006165 then -- Tapping Simulator!
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWtapsimulator"))()
 
