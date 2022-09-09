@@ -1,0 +1,36 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({IntroText = "Kiyotaka Ware",Name = "Tapping Simulator!", HidePremium = false, SaveConfig = true, ConfigFolder = "KW"})
+
+_G.autoLift = true;
+
+function autoLift()
+    while _G.autoLift == true do
+        game:GetService("ReplicatedStorage").Remotes.Lift:FireServer()
+        wait()
+    end
+end
+
+
+local farmTab = Window:MakeTab({
+	Name = "Auto Farm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+farmTab:AddToggle({
+	Name = "AutoLift",
+	Default = false,
+	Callback = function(Value)
+		_G.autoLift = Value
+        autoLift()
+	end    
+})
+
+
+
+
+
+
+
+
+OrionLib:Init()
