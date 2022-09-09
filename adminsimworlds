@@ -1,0 +1,20 @@
+repeat
+    wait()
+until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:IsLoaded()
+
+elseif game.PlaceId == 218377574 then -- Admin Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+ 
+elseif game.PlaceId == 9739506878 then -- Admin Simulator River World
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+
+elseif game.PlaceId == 10135321551 then -- Admin Simulator Canyon World
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    
+elseif game.PlaceId == 10135914792 then -- Admin Simulator Mountain World
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    
+elseif game.PlaceId == 10135223315 then -- Admin Simulator Classic World
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    
+end
