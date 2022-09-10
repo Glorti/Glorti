@@ -36,4 +36,7 @@ elseif game.PlaceId == 10135914792 then -- Admin Simulator Mountain World
     
 elseif game.PlaceId == 10135223315 then -- Admin Simulator Classic World
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    
+elseif game.PlaceId == 10144942022 then -- Admin Simulator Winter World
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
 end
