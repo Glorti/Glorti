@@ -2,10 +2,18 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({IntroText = "Kiyotaka Ware",Name = "Admin Simulator!", HidePremium = true, SaveConfig = true, ConfigFolder = "KW"})
 
 _G.autoLift = true;
+_G.autoReb = true;
 
 function autoLift()
     while _G.autoLift == true do
         game:GetService("ReplicatedStorage").Remotes.Lift:FireServer()
+        wait(.0000001)
+    end
+end
+
+function autoReb()
+    while _G.autoReb == true do
+        game:GetService("ReplicatedStorage").Remotes.UltraLift:FireServer()
         wait(.0000001)
     end
 end
@@ -18,12 +26,21 @@ local farmTab = Window:MakeTab({
 })
 
 farmTab:AddToggle({
-	Name = "AutoLift",
+	Name = "Auto Lift",
 	Default = false,
 	Callback = function(Value)
 		_G.autoLift = Value
         autoLift()
 	end    
+})
+
+farmTab:AddToggle({
+	Name = "Auto Rebirth",
+	Default = false,
+	Callback = function(Value)
+		_G.autoReb = Value
+        autoReb()
+	end   
 })
 
 local playerTab = Window:MakeTab({
@@ -86,7 +103,7 @@ local Section = playerTab:AddSection({
 
 playerTab:AddSlider({
 	Name = "Gravity Changer",
-	Min = -500,
+	Min = 0,
 	Max = 500,
 	Default = 196,
 	Color = Color3.fromRGB(255,255,255),
