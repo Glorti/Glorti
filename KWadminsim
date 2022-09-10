@@ -111,6 +111,18 @@ local tepTab = Window:MakeTab({
 })
 
 tepTab:AddButton({
+	Name = "Teleport Default World",
+	Callback = function()
+        placeid = 218377574  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+tepTab:AddButton({
 	Name = "Teleport River World",
 	Callback = function()
         placeid = 9739506878  --change this to the place id you want
@@ -150,6 +162,18 @@ tepTab:AddButton({
 	Name = "Teleport Classic World",
 	Callback = function()
         placeid = 10135223315  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+tepTab:AddButton({
+	Name = "Teleport Winter World",
+	Callback = function()
+        placeid = 10144942022  --change this to the place id you want
         tp = game:GetService('TeleportService')
         
         for i,v in pairs (game.Players:GetChildren()) do
