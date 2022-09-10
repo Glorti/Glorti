@@ -126,7 +126,7 @@ DiscordTab:AddButton({
 	Name = "Copy Discord Link",
 	Callback = function()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "Kingdom Hub Notice";
+            Title = "Kiyotaka Ware";
             Text = "More Scripts Coming Soon.";
             Duration = 25;
         })
