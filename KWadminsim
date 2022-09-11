@@ -7,14 +7,14 @@ _G.autoReb = true;
 function autoLift()
     while _G.autoLift == true do
         game:GetService("ReplicatedStorage").Remotes.Lift:FireServer()
-        wait(.000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+        wait(1)
     end
 end
 
 function autoReb()
     while _G.autoReb == true do
         game:GetService("ReplicatedStorage").Remotes.UltraLift:FireServer()
-        wait(.0000001)
+        wait(1)
     end
 end
 
