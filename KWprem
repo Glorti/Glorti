@@ -23,20 +23,20 @@ elseif game.PlaceId == 4282985734 then -- Combat Warriors
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWcombatwarriors"))()
     
 elseif game.PlaceId == 218377574 then -- Admin Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsimprem"))()
     
 elseif game.PlaceId == 9739506878 then -- Admin Simulator River World
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsimprem"))()
 
 elseif game.PlaceId == 10135321551 then -- Admin Simulator Canyon World
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsimprem"))()
     
 elseif game.PlaceId == 10135914792 then -- Admin Simulator Mountain World
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsimprem"))()
     
 elseif game.PlaceId == 10135223315 then -- Admin Simulator Classic World
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsimprem"))()
     
 elseif game.PlaceId == 10144942022 then -- Admin Simulator Winter World
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsimprem"))()
 end
