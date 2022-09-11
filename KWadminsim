@@ -7,7 +7,7 @@ _G.autoReb = true;
 function autoLift()
     while _G.autoLift == true do
         game:GetService("ReplicatedStorage").Remotes.Lift:FireServer()
-        wait(.0000001)
+        wait(.000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
     end
 end
 
@@ -226,6 +226,7 @@ DiscordTab:AddButton({
         end
   	end    
 })
+
 
 
 OrionLib:Init()
