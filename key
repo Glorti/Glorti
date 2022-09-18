@@ -16,6 +16,9 @@ elseif game.PlaceId == 7177496972 then -- Anime Warriors
 elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWRebirthChampionsX"))()
 
+elseif game.PlaceId == 6516141723 then -- Doors non game
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/doorsnongameloaded"))()
+
 elseif game.PlaceId == 6839171747 then -- Doors
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWdoors"))()
 
