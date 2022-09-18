@@ -1,0 +1,3 @@
+game:GetService("Players").LocalPlayer.SessionData.MaxStamina.Value = math.huge
+
+game:GetService("Players").LocalPlayer.SessionData.Stamina.Value = math.huge
