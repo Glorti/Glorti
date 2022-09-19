@@ -42,4 +42,7 @@ elseif game.PlaceId == 10135223315 then -- Admin Simulator Classic World
     
 elseif game.PlaceId == 10144942022 then -- Admin Simulator Winter World
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWadminsimprem"))()
+    
+elseif game.PlaceId == 6969185078 then -- Elemental Awaking
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/KWelementalaweking"))()
 end
