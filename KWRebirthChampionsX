@@ -231,4 +231,5 @@ DiscordTab:AddButton({
         end
   	end    
 })
+OrionLib:MakeNotification({Name = "Kiyotaka Ware", Content = "Game: Rebirth Champion X", Time = 15})
 OrionLib:Init()
